@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Utube</title>
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Search for videos:</h1>
+
+        <form action="#" class="js-search-form">
+          <fieldset name="video-search">
+            <legend>Search for a video:</legend>
+            <input type="text" class="js-query-video" placeholder="Search" id="query-video" required>
+            <button type="submit">Search</button>
+          </fieldset>
+        </form>
+
+        <section class="hidden" id="results">
+          results
+        </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
